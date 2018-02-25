@@ -1,15 +1,15 @@
 import React, { Component } from 'react';
-import './HeroeOverview.css';
+import './heroOverview.css';
 
-class HeroeOverview extends Component {
+class HeroOverview extends Component {
     render() {
-        return (<div className='heroe-overview-container'>
+        return (<div className='hero-overview-container'>
             <img src={this.props.image} alt={this.props.name} />
             <h1>{this.props.name}</h1>
-            <p className='heroe-overview-text'>{this.props.overview}</p>
+            <p className='hero-overview-text'>{this.props.overview}</p>
             <a href={this.props.link}>More info..</a>
         </div>);
     }
 }
 
-export default HeroeOverview;
+export default HeroOverview;

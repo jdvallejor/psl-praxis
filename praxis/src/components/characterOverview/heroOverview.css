@@ -1,11 +1,11 @@
-.heroe-overview-container {
+.hero-overview-container {
     display: inline-block;
     width: 50%;
     padding: 20px;
     box-sizing: border-box;
 }
 
-.heroe-overview-text {
+.hero-overview-text {
     overflow: hidden;
     display: -webkit-box;
     -webkit-line-clamp: 5;
